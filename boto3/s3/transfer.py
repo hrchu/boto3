@@ -92,7 +92,7 @@ to the user:
                 self._seen_so_far += bytes_amount
                 percentage = (self._seen_so_far / self._size) * 100
                 sys.stdout.write(
-                    "\\r%s  %s / %s  (%.2f%%)" % (
+                    "\r%s  %s / %s  (%.2f%%)" % (
                         self._filename, self._seen_so_far, self._size,
                         percentage))
                 sys.stdout.flush()
@@ -317,7 +317,29 @@ class S3Transfer(object):
         self._manager.__exit__(*args)
 
 
-class ProgressCallbackInvoker(BaseSubscriber):
+class 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CallbackInvoker(BaseSubscriber):
     """A back-compat wrapper to invoke a provided callback via a subscriber
 
     :param callback: A callable that takes a single positional argument for
